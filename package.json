@@ -1,0 +1,11 @@
+{
+  "name": "synergex-med",
+  "version": "1.0.0",
+  "description": "Synergex Med - Patient Referral Intake System",
+  "private": true,
+  "workspaces": [
+    "packages/shared",
+    "frontend",
+    "backend"
+  ]
+}
