@@ -96,6 +96,15 @@ cd backend && npm run dev
 ```
 
 **Terminal 2 - Start Frontend (Port 3000):**
+
+**Configure environment variables:**
+
+Create `.env.local` in the frontend folder:
+```bash
+cd frontend
+cp .env.local.example .env.local
+```
+
 ```bash
 npm run dev:frontend
 # or manually:
